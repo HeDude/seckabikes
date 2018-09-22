@@ -374,7 +374,7 @@
 	display:none;
 }
 
-#backtotop
+#jump2top
 {
 	z-index:999;
 	display:inline-block;
@@ -389,19 +389,19 @@
 	text-align:center;
 	opacity:.2;
 }
-#backtotop i
+#jump2top i
 {
 	display:block;
 	width:100%;
 	height:100%;
 	line-height:inherit;
 }
-#backtotop.visible
+#jump2top.visible
 {
 	visibility:visible;
 	opacity:.5;
 }
-#backtotop:hover
+#jump2top:hover
 {
 	opacity:1;
 }
