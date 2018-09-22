@@ -802,12 +802,12 @@ table a, #comments a
 
 @media screen and (max-width:650px)
 {
-	.inline li
+	.scrollable
 	{
-		display:block; margin-bottom:10px;
+		display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;
 	}
-	.pushright li
+	.scrollable table
 	{
-		margin-right:0;
+		margin:0; padding:0; white-space:nowrap;
 	}
 }
