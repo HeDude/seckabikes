@@ -2,6 +2,7 @@
 @import url("fontawesome-4.5.0.min.css");
 @import url("https://www.hedude.com/stylesheets/default.css");
 @import url("https://www.hedude.com/stylesheets/image_sequence.css");
+@import url("images.css");
 @import url("colors.css");
 
 #header
@@ -32,30 +33,30 @@
 	text-transform:lowercase;
 }
 
-#bee_page_introduction
+#page_introduction
 {
 	padding:120px 0;
 	text-align:center;
 }
 
-#bee_page_introduction article
+#page_introduction article
 {
 	display:block;
 	max-width:60%;
 	margin:0 auto;
 }
-#bee_page_introduction article .introtxt
+#page_introduction article .introtxt
 {
 	margin:0 0 50px 0;
 	padding:30px;
 	border-radius:0 50px;
 }
-#bee_page_introduction article .heading
+#page_introduction article .heading
 {
 	margin-bottom:30px;
 	font-size:36px;
 }
-#bee_page_introduction article p:last-of-type
+#page_introduction article p:last-of-type
 {
 	margin-bottom:0;
 }
@@ -211,32 +212,32 @@
 	padding:0;
 }
 
-#mainav form *
+#main_navigation form *
 {
 	transition:none !important;
 }
-#mainav, #breadcrumb, .sidebar nav
+#main_navigation, #breadcrumb, .sidebar nav
 {
 	line-height:normal;
 }
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after
+#main_navigation .drop::after, #main_navigation li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after
 {
 	position:absolute;
 	font-family:"FontAwesome";
 	font-size:40px;
 	line-height:40px;
 }
-#mainav
+#main_navigation
 {
 	margin-bottom:40px;
 	border-bottom:1px solid;
 }
-#mainav ul
+#main_navigation ul
 {
 	text-transform:uppercase;
 	text-align:center;
 }
-#mainav ul ul
+#main_navigation ul ul
 {
 	z-index:9999;
 	position:absolute;
@@ -244,89 +245,89 @@
 	text-transform:none;
 	text-align:left;
 }
-#mainav ul ul ul
+#main_navigation ul ul ul
 {
 	left:160px; top:0;
 }
-#mainav li
+#main_navigation li
 {
 	display:inline-block;
 	position:relative;
 	margin:0 30px 0 0;
 	padding:0;
 }
-#mainav li:last-child
+#main_navigation li:last-child
 {
 	margin-right:0;
 }
-#mainav li li
+#main_navigation li li
 {
 	width:100%;
 	margin:0;
 }
-#mainav li a
+#main_navigation li a
 {
 	display:block;
 	padding:20px 0;
 }
-#mainav li li a
+#main_navigation li li a
 {
 	border:solid;
 	border-width:0 0 1px 0;
 }
-#mainav .drop
+#main_navigation .drop
 {
 	padding-left:15px;
 }
-#mainav li li a, #mainav li li .drop
+#main_navigation li li a, #main_navigation li li .drop
 {
 	display:block;
 	margin:0;
 	padding:10px 15px;
 }
-#mainav .drop::after, #mainav li li .drop::after
+#main_navigation .drop::after, #main_navigation li li .drop::after
 {
 	content:"\f0d7";
 }
-#mainav .drop::after
+#main_navigation .drop::after
 {
 	top:25px;
 	left:5px;
 }
-#mainav li li .drop::after
+#main_navigation li li .drop::after
 {
 	top:15px;
 	left:5px;
 }
-#mainav ul ul
+#main_navigation ul ul
 {
 	visibility:hidden;
 	opacity:0;
 }
-#mainav ul li:hover > ul
+#main_navigation ul li:hover > ul
 {
 	visibility:visible;
 	opacity:1;
 }
-#mainav form
+#main_navigation form
 {
 	display:none;
 	margin:0;
 	padding:20px 0;
 }
-#mainav form select, #mainav form select option
+#main_navigation form select, #main_navigation form select option
 {
 	display:block;
 	cursor:pointer;
 	outline:none;
 }
-#mainav form select
+#main_navigation form select
 {
 	width:100%;
 	padding:5px;
 	border:1px solid;
 }
-#mainav form select option
+#main_navigation form select option
 {
 	margin:5px;
 	padding:0;
@@ -432,14 +433,14 @@
 	{
 	}
 
-	#mainav
+	#main_navigation
 	{
 	}
-	#mainav ul
+	#main_navigation ul
 	{
 		display:none;
 	}
-	#mainav form
+	#main_navigation form
 	{
 		display:block;
 	}
@@ -468,7 +469,7 @@
 
 @media screen and (max-width:750px)
 {
-	#bee_page_introduction article
+	#page_introduction article
 	{
 		max-width:90%;
 	}
@@ -485,7 +486,7 @@
 
 @media screen and (max-width:450px)
 {
-	#bee_page_introduction article
+	#page_introduction article
 	{
 		max-width:95%;
 	}

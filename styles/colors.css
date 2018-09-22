@@ -71,11 +71,11 @@ input:focus, textarea:focus, *:required:focus
 	color:inherit;
 }
 
-#bee_page_introduction article
+#page_introduction article
 {
 	color:#FFFFFF;
 }
-#bee_page_introduction article .introtxt
+#page_introduction article .introtxt
 {
 	color:#2B3281; background-color:rgba(255,255,255,.75);
 }
@@ -126,31 +126,31 @@ input:focus, textarea:focus, *:required:focus
 	background-color:#3C7839;
 }
 
-#mainav
+#main_navigation
 {
 	border-color:rgba(255,255,255,.2);
 }
-#mainav li a
+#main_navigation li a
 {
 	color:inherit;
 }
-#mainav .active a, #mainav a:hover, #mainav li:hover > a
+#main_navigation .active a, #main_navigation a:hover, #main_navigation li:hover > a
 {
 	color:#3C7839;
 	background-color:inherit;
 }
-#mainav li li a, #mainav .active li a
+#main_navigation li li a, #main_navigation .active li a
 {
 	color:#FFFFFF;
 	background-color:rgba(0,0,0,.6);
 	border-color:rgba(0,0,0,.6);
 }
-#mainav li li:hover > a, #mainav .active .active > a
+#main_navigation li li:hover > a, #main_navigation .active .active > a
 {
 	color:#FFFFFF;
 	background-color:#3C7839;
 }
-#mainav form select
+#main_navigation form select
 {
 	color:#FFFFFF;
 	background-color:#1F1F1F;
