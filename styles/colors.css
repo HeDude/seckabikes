@@ -75,9 +75,10 @@ input:focus, textarea:focus, *:required:focus
 {
 	color:#FFFFFF;
 }
-#page_introduction article .introtxt
+#page_introduction article .introduction_text
 {
-	color:#2B3281; background-color:rgba(255,255,255,.75);
+	color:#2B3281;
+	background-color:rgba(255,255,255,.75);
 }
 
 .blocks .overlay:hover
